@@ -22,16 +22,18 @@ const Homepage = () => {
         initial={{ transform: "translateY(-100px)" }}
         transition={{
           ease: "easeIn",
-          duration: 1,
+          duration: 0.3,
         }}
-        animate={{ transform: "translateY(0)" }}
+        whileInView={{ transform: "translateY(0)" }}
+        viewport={{ once: false }}
       />
 
       <motion.h1
         className="text-6xl text-white font-bold"
         initial={{ transform: "scale(0.25)" }}
-        transition={{ ease: "easeIn", duration: 1 }}
-        animate={{ transform: "scale(1)" }}
+        viewport={{ once: false }}
+        whileInView={{ transform: "scale(1)" }}
+        transition={{ ease: "easeIn", duration: 0.3, delay: 0.2 }}
       >
         Kelompok 39
       </motion.h1>
@@ -42,8 +44,9 @@ const Homepage = () => {
           variants={sosmedBtn}
           whileHover="hover"
           initial={{ transform: "translateX(-100px)" }}
-          transition={{ ease: "easeIn", duration: 1 }}
-          animate={{ transform: "translateX(0)" }}
+          transition={{ ease: "easeIn", duration: 0.3, delay: 0.2 }}
+          whileInView={{ transform: "translateX(0)" }}
+          viewport={{ once: false }}
         >
           <FaInstagram className="text-6xl text-white" />
         </motion.button>
@@ -54,9 +57,11 @@ const Homepage = () => {
           initial={{ transform: "translateY(100px)" }}
           transition={{
             ease: "easeIn",
-            duration: 1,
+            duration: 0.3,
+            delay: 0.3,
           }}
-          animate={{ transform: "translateY(0)" }}
+          whileInView={{ transform: "translateY(0)" }}
+          viewport={{ once: false }}
         >
           <FaInstagram className="text-6xl text-white" />
         </motion.button>
@@ -65,8 +70,13 @@ const Homepage = () => {
           variants={sosmedBtn}
           whileHover="hover"
           initial={{ transform: "translateX(100px)" }}
-          transition={{ ease: "easeIn", duration: 1 }}
-          animate={{ transform: "translateX(0)" }}
+          transition={{
+            ease: "easeIn",
+            duration: 0.3,
+            delay: 0.5,
+          }}
+          whileInView={{ transform: "translateX(0)" }}
+          viewport={{ once: false }}
         >
           <FaInstagram className="text-6xl text-white" />
         </motion.button>
