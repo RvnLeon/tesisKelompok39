@@ -7,7 +7,7 @@ const Video = () => {
       <video
         src={sample}
         controls
-        className="w-full h-full object-cover object-center border-8  border-blue-100 rounded-xl"
+        className=" object-cover object-center border-8  border-blue-100 rounded-xl"
       ></video>
     </div>
   );
