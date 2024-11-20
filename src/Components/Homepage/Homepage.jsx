@@ -24,7 +24,7 @@ const Homepage = () => {
     <div className="h-screen flex flex-col justify-center items-center gap-6 p-6">
       <motion.img
         src={Profile}
-        className="rounded-3xl h-96 w-96"
+        className="rounded-3xl size-36 lg:size-42 xl:size-96"
         initial={{ transform: "translateY(-100px)" }}
         transition={{
           ease: "easeIn",
@@ -36,7 +36,7 @@ const Homepage = () => {
 
       <div className=" flex justify-center items-center gap-5 flex-col">
         <motion.h1
-          className="text-4xl lg:text-6xl text-white font-bold"
+          className="text-xl lg:text-4xl xl:text-6xl text-white font-bold"
           initial={{ transform: "scale(0.25)" }}
           viewport={{ once: false }}
           whileInView={{ transform: "scale(1)" }}
@@ -45,7 +45,7 @@ const Homepage = () => {
           🙋🏻‍♂️Hey, Everyone🙋🏻‍♀️
         </motion.h1>
         <motion.h1
-          className="text-4xl lg:text-6xl text-white font-bold"
+          className="text-xl lg:text-4xl xl:text-6xl text-white font-bold"
           initial={{ transform: "scale(0.25)" }}
           viewport={{ once: false }}
           whileInView={{ transform: "scale(1)" }}

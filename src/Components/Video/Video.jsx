@@ -12,7 +12,7 @@ const Video = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
-        className=" bg-slate-500 h-full w-full border-blue-100 rounded-xl"
+        className=" bg-slate-500 size-full border-blue-100 rounded-xl"
       ></iframe>
     </div>
   );

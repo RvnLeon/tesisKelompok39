@@ -66,7 +66,7 @@ const Member = () => {
                 rel="noopener noreferrer"
               >
                 <motion.div
-                  className="h-32 w-32 lg:h-64 lg:w-64 flex justify-center items-center rounded-tr-xl rounded-bl-xl transition duration-500 ease-in-out text-center bg-sky-300 hover:bg-sky-700 hover:text-white font-bold p-5 flex-col gap-6 border-white border-2 text-xl"
+                  className="size-32 lg:size-40 xl:size-64 flex justify-center items-center rounded-tr-xl rounded-bl-xl transition duration-500 ease-in-out text-center bg-sky-300 hover:bg-sky-700 hover:text-white font-bold p-5 flex-col gap-2 border-white border-2 text-xl"
                   whileHover={{
                     scale: 1.1,
                     boxShadow: "0 0 36px rgba(0,0,0,.8)",
@@ -82,8 +82,8 @@ const Member = () => {
                   transition={{ duration: 0.2 }}
                   viewport={{ once: false }}
                 >
-                  <img src={icon} className="size-24 rounded-full" />
-                  <h1>{nama}</h1>
+                  <img src={icon} className="size-16 xl:size-24 rounded-full" />
+                  <h1 className="text-sm xl:text-xl">{nama}</h1>
                 </motion.div>
               </a>
             ))}
@@ -99,7 +99,7 @@ const Member = () => {
                   rel="noopener noreferrer"
                 >
                   <motion.div
-                    className="h-24 w-24 xl:h-44 xl:w-44 flex justify-center items-center rounded-tr-xl rounded-bl-xl transition duration-500 ease-in-out text-center bg-sky-300 hover:bg-sky-700 hover:text-white font-bold p-5 border-white border-2"
+                    className="size-32 xl:h-44 xl:w-44 flex justify-center items-center rounded-tr-xl rounded-bl-xl transition duration-500 ease-in-out text-center bg-sky-300 hover:bg-sky-700 hover:text-white font-bold p-5 border-white border-2 flex-col xl:flex-row"
                     initial={{
                       opacity: 0,
                       scale: 0.5,
@@ -123,8 +123,11 @@ const Member = () => {
                       },
                     }}
                   >
-                    <img src={icon} className="size-20 rounded-full" />
-                    <h1>{nama}</h1>
+                    <img
+                      src={icon}
+                      className="size-10 xl:size-20 rounded-full"
+                    />
+                    <h1 className="text-sm font-bold ">{nama}</h1>
                   </motion.div>
                 </a>
               ))}

@@ -36,7 +36,7 @@ const Content = () => {
           📃 Our Tesis Paper
         </motion.a>
 
-        <div className="h-full w-full bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100 flex flex-col items-center p-5 gap-5">
+        <div className="h-full w-full bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100 flex flex-col items-center p-5 gap-5 overflow-scroll">
           <h1 className="text-white text-4xl font-extrabold">PeLaMar</h1>
           <div>
             <p className="text-md text-white ">
