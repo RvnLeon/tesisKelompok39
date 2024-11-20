@@ -57,7 +57,7 @@ const Homepage = () => {
 
       <div className="sosmed flex flex-row justify-center items-center h-26 w-72 gap-8">
         <motion.a
-          href=""
+          href="https://www.instagram.com/pelamar.id/"
           className="block size-14 xl:size-16 rounded-xl"
           variants={sosmedBtn}
           whileHover="hover"
@@ -72,7 +72,7 @@ const Homepage = () => {
           />
         </motion.a>
         <motion.a
-          href=""
+          href="https://x.com/pelamar_id?s=08"
           className="block size-14 xl:size-16 rounded-xl"
           variants={sosmedBtn}
           whileHover="hover"
