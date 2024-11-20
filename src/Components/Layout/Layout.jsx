@@ -4,6 +4,7 @@ import Member from "../Member/Member";
 import Video from "../Video/Video";
 import Content from "../Content/Content";
 import Footer from "../Footer/Footer";
+import CountdownTimer from "../Countdown/Countdown";
 
 const Layout = () => {
   return (
@@ -13,6 +14,7 @@ const Layout = () => {
         <Member />
         <Video />
         <Content />
+        <CountdownTimer />
         <Footer />
       </div>
     </div>

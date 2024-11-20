@@ -1,14 +1,19 @@
 import React from "react";
-import sample from "../../assets/Video/sample.mp4";
 
 const Video = () => {
   return (
     <div className="h-screen w-screen flex justify-center items-center p-10">
-      <video
-        src={sample}
-        controls
-        className=" object-cover object-center border-8  border-blue-100 rounded-xl"
-      ></video>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/TadxrBd3WOg?si=rAf_Vkde3Cvms85F"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+        className=" bg-slate-500 h-full w-full border-blue-100 rounded-xl"
+      ></iframe>
     </div>
   );
 };

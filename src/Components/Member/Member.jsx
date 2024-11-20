@@ -1,39 +1,49 @@
 import React from "react";
 import { motion } from "framer-motion";
 import VelineIcon from "../../assets/Image/Veline.jpg";
+import ShahlaIcon from "../../assets/Image/Shahla.jpg";
+import JethroIcon from "../../assets/Image/Jethro.jpg";
+import NindiIcon from "../../assets/Image/Nindi.jpg";
+import RevanIcon from "../../assets/Image/Revan.jpg";
+import SylviIcon from "../../assets/Image/Sylvi.jpg";
 
 const Member = () => {
   const biodata = [
     {
       nama: "Alexandria Loveline Islamsyah",
-      link: "https://youtube.com",
+      link: "http://velineiyadeh.carrd.co",
       role: "leader",
       icon: VelineIcon,
     },
     {
       nama: "Anindita Aulia Zahra",
-      link: "https://youtube.com",
+      link: "http://nindiedgy.carrd.co",
       role: "member",
+      icon: NindiIcon,
     },
     {
       nama: "Jethro Ibrena Bangun",
-      link: "https://youtube.com",
+      link: "http://jetrofanumtax.carrd.co",
       role: "member",
+      icon: JethroIcon,
     },
     {
       nama: "Revan Adi Pratama",
-      link: "https://youtube.com",
+      link: "http://revanrizzler.carrd.co",
       role: "member",
+      icon: RevanIcon,
     },
     {
       nama: "Shahla Nadine Alamudi",
-      link: "https://youtube.com",
+      link: "http://shahlasigma.carrd.co",
       role: "member",
+      icon: ShahlaIcon,
     },
     {
       nama: "Sylvia Febriana Prasetyo",
-      link: "https://youtube.com",
+      link: "http://sylviskibidi.carrd.co",
       role: "member",
+      icon: SylviIcon,
     },
   ];
 
@@ -56,7 +66,7 @@ const Member = () => {
                 rel="noopener noreferrer"
               >
                 <motion.div
-                  className="h-32 w-32 lg:h-64 lg:w-64 flex justify-center items-center rounded-tr-xl rounded-bl-xl transition duration-500 ease-in-out text-center bg-sky-300 hover:bg-sky-700 hover:text-white font-bold p-5 flex-col gap-6 border-white border-2"
+                  className="h-32 w-32 lg:h-64 lg:w-64 flex justify-center items-center rounded-tr-xl rounded-bl-xl transition duration-500 ease-in-out text-center bg-sky-300 hover:bg-sky-700 hover:text-white font-bold p-5 flex-col gap-6 border-white border-2 text-xl"
                   whileHover={{
                     scale: 1.1,
                     boxShadow: "0 0 36px rgba(0,0,0,.8)",
@@ -72,7 +82,7 @@ const Member = () => {
                   transition={{ duration: 0.2 }}
                   viewport={{ once: false }}
                 >
-                  <img src={icon} className="size-20 rounded-full" />
+                  <img src={icon} className="size-24 rounded-full" />
                   <h1>{nama}</h1>
                 </motion.div>
               </a>
@@ -113,7 +123,7 @@ const Member = () => {
                       },
                     }}
                   >
-                    <img src={icon} />
+                    <img src={icon} className="size-20 rounded-full" />
                     <h1>{nama}</h1>
                   </motion.div>
                 </a>

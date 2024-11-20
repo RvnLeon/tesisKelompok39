@@ -91,7 +91,7 @@ const Homepage = () => {
           />
         </motion.a>
         <motion.a
-          href=""
+          href="mailto:pelamar1991@gmail.com"
           className="block size-14 xl:size-16 rounded-xl bg-white"
           variants={sosmedBtn}
           whileHover="hover"
