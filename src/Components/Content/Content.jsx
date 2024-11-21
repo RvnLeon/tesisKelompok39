@@ -37,9 +37,9 @@ const Content = () => {
         </motion.a>
 
         <div className="h-full w-full bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100 flex flex-col items-center p-5 gap-5 overflow-scroll">
-          <h1 className="text-white text-4xl font-extrabold">PeLaMar</h1>
+          <h1 className="text-white text-6xl font-extrabold">PELAMAR</h1>
           <div>
-            <p className="text-md xl:text-2xl text-white font-bold">
+            <p className="text-md xl:text-3xl text-white font-bold text-center">
               Kami sedang merancang penelitian untuk menciptakan solusi
               sederhana dan terjangkau dalam menyediakan air layak minum melalui
               produk bernama PELAMAR (Pengecekan Kelayakan Air Minum Murah
@@ -50,14 +50,12 @@ const Content = () => {
               dapat dipastikan layak dikonsumsi. Penelitian ini mencakup
               beberapa tahap, yaitu observasi sumber air, pembuatan prototipe
               alat filtrasi, pengujian kualitas air sebelum dan sesudah proses
-              filtrasi, serta pelatihan kepada masyarakat tentang penggunaan
-              produk dan pentingnya menjaga kebersihan air. Kami berharap
-              inovasi ini tidak hanya menjadi solusi praktis bagi masyarakat
-              desa dalam mendapatkan akses air minum yang sehat, tetapi juga
-              dapat menginspirasi penerapan teknologi serupa di wilayah lain.
-              Saat ini kami masih dalam tahap persiapan dan optimis bahwa
-              penelitian ini akan membawa dampak positif bagi masyarakat Desa
-              Ciburial.
+              filtrasi. Kami berharap inovasi ini tidak hanya menjadi solusi
+              praktis bagi masyarakat desa dalam mendapatkan akses air minum
+              yang sehat, tetapi juga dapat menginspirasi penerapan teknologi
+              serupa di wilayah lain. Saat ini kami masih dalam tahap persiapan
+              dan optimis bahwa penelitian ini akan membawa dampak positif bagi
+              masyarakat Desa Ciburial.
             </p>
           </div>
         </div>

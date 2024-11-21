@@ -5,13 +5,13 @@ const CountdownTimer = () => {
   return (
     <div className="flex items-center justify-center h-full w-screen text-blue-600 capitalize flex-col gap-5 p-2">
       <h1 className="text-lg lg:text-xl xl:text-6xl font-extrabold">
-        🎉Time Left🎉
+        🎉Menuju TeSIS 2025🎉
       </h1>
       <Countdown
         date={new Date("2025-01-24T06:00:00+07:00")}
         renderer={(props) => {
           if (props.completed) {
-            return <span className="text-6xl font-bold">Now!</span>;
+            return <span className="text-6xl font-bold">Sekarang!</span>;
           }
           return (
             <span className="text-lg lg:text-2xl xl:text-6xl">
